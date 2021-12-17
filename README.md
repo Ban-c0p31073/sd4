@@ -1,24 +1,13 @@
-# git
+# 大学生に向けた友人マッチングアプリケーションの開発プロジェクト
 
-## Project setup
-```
-npm install
-```
+文教大学の中で友達が欲しいものの、コミュニケーションが苦手、そうでなくてもコロナ禍の現状では思うようにコミュニケーションを取れずに友達が出来ないという学生は多い。そこで、インターネットを利用した出会いの場を提供するためにこのマッチングアプリケーションの制作を企画した。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## デモページ
 
-### Compiles and minifies for production
-```
-npm run build
-```
+https://ban-c0p31073.github.io/sd4/
 
-### Lints and fixes files
-```
-npm run lint
-```
+これは"github pages"を利用したデモページです。
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+仕様上サーバーとの連携はなく、表示されるデータはすべて**あらかじめ入力されたダミー**となります。
+
+また、サーバーから新たにデータを取得できないため**いくつかのボタンは機能しません。** ご了承ください。
