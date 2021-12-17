@@ -1,18 +1,17 @@
 <template>
-  <div class="home">
-    <h1>ホーム</h1>
-    <match/>
+  <div class="Chat">
+    <h1>チャット</h1>
+    <ChatList/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import match from '@/components/Match.vue'
+import ChatList from '@/components/ChatList.vue'
 
 export default {
-  name: 'Home',
   components: {
-    match
+    ChatList
   }
 }
 </script>
