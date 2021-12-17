@@ -4,8 +4,12 @@ import Main from '../views/Main.vue'
 const routes = [
   {
     path: '',
+    name: 'Welcome',
+    component: () => import('../views/Welcome.vue')
+  },
+  {
+    path: '/',
     component: Main,
-    meta: { requiresAuth: true },
     children:[
       {
         path: '/home',
@@ -33,11 +37,6 @@ const routes = [
         component: () => import('../views/Help.vue')
       }
     ]
-  },
-  {
-    path: '/',
-    name: 'Welcome',
-    component: () => import('../views/Welcome.vue')
   }
 ]
 

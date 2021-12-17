@@ -2,8 +2,8 @@
   <div class="sidebar">
     <div class="sidebar-wrapper">
       <div class="sidebar-link-area">
-        <router-link to="/"><img class="logo" src="@/assets/icon/logo.png"></router-link>
-        <router-link to="/"><div class="sidebar-link"><img class="icon" src="@/assets/icon/home.png">ホーム</div></router-link>
+        <router-link to="/home"><img class="logo" src="@/assets/icon/logo.png"></router-link>
+        <router-link to="/home"><div class="sidebar-link"><img class="icon" src="@/assets/icon/home.png">ホーム</div></router-link>
         <router-link to="/setting"><div class="sidebar-link"><img class="icon" src="@/assets/icon/setup.png">設定</div></router-link>
         <router-link to="/chat"><div class="sidebar-link"><img class="icon" src="@/assets/icon/chat.png">チャット</div></router-link>
         <router-link to="/good"><div class="sidebar-link"><img class="icon" src="@/assets/icon/good.png">いいね</div></router-link>

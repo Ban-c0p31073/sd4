@@ -36,7 +36,7 @@ export default {
     loginEvent(){
       this.emailErr = "「a」と入力するとログイン可能です。";
       if(this.email == "a"){
-        this.$router.push({ path: '/'})
+        this.$router.push({ path: '/home'})
       }
     }
   },
