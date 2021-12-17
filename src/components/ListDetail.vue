@@ -68,7 +68,7 @@ export default {
   },
   computed :{
     imgFile:function(){
-      return "/php/images/" + this.img
+      return "/sd4/php/images/" + this.img
     }
   }
 }

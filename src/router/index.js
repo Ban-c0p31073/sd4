@@ -3,12 +3,12 @@ import Main from '../views/Main.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '',
     component: Main,
     meta: { requiresAuth: true },
     children:[
       {
-        path: '',
+        path: '/home',
         name: 'Home',
         component: () => import('../views/Home.vue')
       },
@@ -35,7 +35,7 @@ const routes = [
     ]
   },
   {
-    path: '/Welcome',
+    path: '/',
     name: 'Welcome',
     component: () => import('../views/Welcome.vue')
   }

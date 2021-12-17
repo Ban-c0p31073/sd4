@@ -265,7 +265,7 @@ export default createStore({
       {
           "id": "21",
           "name": "鈴木 美羽",
-          "img": "/php/images/20211217181542f_f_object_170_s256_f_object_170_0bg.png",
+          "img": "/sd4/php/images/20211217181542f_f_object_170_s256_f_object_170_0bg.png",
           "messages": [
               {
                   "message": "hallo",
@@ -287,7 +287,7 @@ export default createStore({
       {
           "id": "13",
           "name": "田中めめ",
-          "img": "/php/images/202112171755303.jpg",
+          "img": "/sd4/php/images/202112171755303.jpg",
           "messages": [
               {
                   "message": "hallo",
@@ -298,7 +298,7 @@ export default createStore({
       {
           "id": "19",
           "name": "古歌 晃螺",
-          "img": "/php/images/202112171758572.jpg",
+          "img": "/sd4/php/images/202112171758572.jpg",
           "messages": [
               {
                   "message": "hallo",

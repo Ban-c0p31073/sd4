@@ -9,7 +9,7 @@
         <router-link to="/good"><div class="sidebar-link"><img class="icon" src="@/assets/icon/good.png">いいね</div></router-link>
       </div>
       <div class="sidebar-link-area-under">
-        <div class="sidebar-link" @click="reload"><img class="icon" src="@/assets/icon/help.png">ログアウト</div>
+        <router-link to="/"><div class="sidebar-link"><img class="icon" src="@/assets/icon/help.png">ログアウト</div></router-link>
         <router-link to="/help"><div class="sidebar-link"><img class="icon" src="@/assets/icon/help.png">ヘルプ</div></router-link>
       </div>
     </div>

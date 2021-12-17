@@ -55,7 +55,7 @@ export default {
       return this.$store.state.matchUser
     },
     img:function(){
-      return "/php/images/" + this.$store.state.matchUser.MatchUser.filename
+      return "/sd4/php/images/" + this.$store.state.matchUser.MatchUser.filename
     }
   },
   components: {
